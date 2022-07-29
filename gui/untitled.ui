@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MensD</class>
+ <widget class="QWidget" name="MensD">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>566</width>
+    <height>176</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#widget_Pading{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.585, y2:0.66, stop:0.505682 rgba(0, 248, 255, 255), stop:1 rgba(0, 0, 0, 0));
+}
+QWidget#widget{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.943191, y2:0.984, stop:0.685393 rgba(30, 30, 40, 250), stop:1 rgba(0, 0, 0, 210));	
+}
+QWidget#widget_2{
+	background-color:qlineargradient(spread:pad, x1:0.40713, y1:0.511, x2:1, y2:1, stop:0 rgba(30,30,40, 237), stop:1 rgba(255, 255, 255, 0));
+}
+/* Botones */
+QPushButton{
+	background-color: rgb(30,30,30);
+	border:1px solid rgb(255,255,255);
+	border-radius:4px;
+	color:rgba(255,255,255,0.9);
+	padding:4px;
+}
+QPushButton:hover{
+	font: 57 15pt &quot;Marlett&quot;;
+	background-color: rgba(30,30,30,0.8);
+	border:1px solid rgb(255,255,255);
+	border-radius:4px;
+	color:rgba(255,255,255,0.7);
+	padding:2px;
+}
+QPushButton:pressed{
+	font: 57 13pt &quot;Marlett&quot;;
+	background-color: rgb(30,30,30);
+	border:1px solid rgb(255,255,255);
+	border-radius:4px;
+	color:#ffffff;
+	padding:30px;
+}
+QPushButton#Cerrar:hover{
+	font: 57 15pt &quot;Marlett&quot;;
+	background-color:rgba(255,0,0,0.8);
+	border: 1px solid rgb(255,255,255);
+	border-radius:4px;
+	color:rgba(255,255,255,0.74);
+	padding:2px;
+}
+QPushButton#Cerrar:pressed{
+	font: 57 10pt &quot;Marlett&quot;;
+	background-color:rgba(255,0,0,1);
+	border: 1px solid rgb(255,255,255);
+	border-radius:4px;
+	color:#ffffff;
+	padding:2px;
+}
+QLineEdit{
+	color: #ffffff;
+	background-color: rgba(27, 29, 35, 160);
+	border: 1px solid rgb(255,255,255);
+	border-radius: 2px;
+	font: 14pt &quot;MS Shell Dlg 2&quot;;
+}
+/*   Modificacion de los labes*/
+QLabel{
+	background: transparent;
+	color:#ffffff;
+	font: 14pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget_Pading" native="true">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="leftMargin">
+       <number>2</number>
+      </property>
+      <property name="topMargin">
+       <number>2</number>
+      </property>
+      <property name="rightMargin">
+       <number>2</number>
+      </property>
+      <property name="bottomMargin">
+       <number>2</number>
+      </property>
+      <property name="spacing">
+       <number>2</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QWidget" name="widget" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <property name="spacing">
+          <number>3</number>
+         </property>
+         <property name="leftMargin">
+          <number>3</number>
+         </property>
+         <property name="topMargin">
+          <number>3</number>
+         </property>
+         <property name="rightMargin">
+          <number>3</number>
+         </property>
+         <property name="bottomMargin">
+          <number>3</number>
+         </property>
+         <item alignment="Qt::AlignTop">
+          <widget class="QWidget" name="widget_3" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QWidget" name="widget_5" native="true">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_3">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QLabel" name="Tema">
+                 <property name="font">
+                  <font>
+                   <family>MS Shell Dlg 2</family>
+                   <pointsize>14</pointsize>
+                   <italic>false</italic>
+                   <bold>false</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Tema</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item alignment="Qt::AlignRight|Qt::AlignTop">
+             <widget class="QWidget" name="widget_4" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_2">
+               <property name="spacing">
+                <number>2</number>
+               </property>
+               <property name="leftMargin">
+                <number>2</number>
+               </property>
+               <property name="topMargin">
+                <number>2</number>
+               </property>
+               <property name="rightMargin">
+                <number>2</number>
+               </property>
+               <property name="bottomMargin">
+                <number>2</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="Minimizar">
+                 <property name="font">
+                  <font>
+                   <family>Marlett</family>
+                   <pointsize>17</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>0</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Cerrar">
+                 <property name="font">
+                  <font>
+                   <family>Marlett</family>
+                   <pointsize>17</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>r</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_2" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_4">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <item row="0" column="0">
+             <widget class="QLabel" name="Contenido">
+              <property name="text">
+               <string>Contenido</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Minimizar</sender>
+   <signal>clicked()</signal>
+   <receiver>MensD</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>517</x>
+     <y>21</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>571</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Cerrar</sender>
+   <signal>clicked()</signal>
+   <receiver>MensD</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>545</x>
+     <y>22</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>567</x>
+     <y>-4</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
